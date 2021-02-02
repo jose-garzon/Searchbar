@@ -1,0 +1,58 @@
+.SearchBar {
+  width: 50vw;
+  height: 5rem;
+  margin: 0 auto;
+  position: relative;
+  overflow: hidden;
+  margin-top: 10rem;
+}
+
+.SearchBar__input {
+  position: absolute;
+  background: transparent;
+  width: 100%;
+  bottom: 0;
+  border: none;
+  outline: none;
+  padding-left: 2rem;
+  padding-bottom: 0.2rem;
+  font-size: 1.8rem;
+  border-bottom: 2px solid var(--dark-color);
+}
+
+.SearchBar__label {
+  position: absolute;
+  display: block;
+  width: 100%;
+  bottom: 0;
+  pointer-events: none;
+}
+
+.SearchBar__label::before {
+  content: '';
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  z-index: 1;
+  border-bottom: 3px solid var(--second-color);
+  transition: 0.4s;
+  transform: translate(-100%);
+}
+
+.SearchBar__label strong {
+  position: relative;
+  transition: 0.3s;
+  bottom: 0;
+  font-size: 1.8rem;
+}
+
+.SearchBar__input:focus + .SearchBar__label strong,
+.SearchBar__input:valid + .SearchBar__label strong {
+  bottom: 3rem;
+  font-size: 1.4rem;
+}
+
+.SearchBar__input:focus + .SearchBar__label::before,
+.SearchBar__input:valid + .SearchBar__label::before {
+  transform: translate(0);
+}
