@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # React-boilerplate
 
 This is a new project configuration with React and CSS
@@ -27,3 +28,7 @@ Start the dev server:
 To build the production version:
 
 `npm run build`
+=======
+# Searchbar
+This is a multiple searcher
+>>>>>>> 4ed81f0505129f5306b96ab9fc0533ab950d79f1
