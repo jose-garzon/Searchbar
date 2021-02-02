@@ -1,12 +1,7 @@
-<<<<<<< HEAD
-# React-boilerplate
-
-This is a new project configuration with React and CSS
+# Searchbar
+This is a multiple searcher
 
 ## Configuration
-
-This configuration is made with webpack and implements Standard lintern.
-It allows:
 
 - React / 17
 - CSS / 3
@@ -15,7 +10,7 @@ It allows:
 
 Clone the repo:
 
-`git clone git@github.com:jose-garzon/react-boilerplate.git`
+`git clone git@github.com:jose-garzon/Searchbar.git`
 
 Install dependencies:
 
@@ -28,7 +23,3 @@ Start the dev server:
 To build the production version:
 
 `npm run build`
-=======
-# Searchbar
-This is a multiple searcher
->>>>>>> 4ed81f0505129f5306b96ab9fc0533ab950d79f1
